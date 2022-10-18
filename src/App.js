@@ -8,7 +8,7 @@ const App = () => (
   <div>
     <Home />
     <Switch>
-      <Route exact path="/team-matches/:id" component={TeamMatches} />
+      <Route path="/team-matches/:id" component={TeamMatches} />
       <Route component={NotFound} />
     </Switch>
   </div>
