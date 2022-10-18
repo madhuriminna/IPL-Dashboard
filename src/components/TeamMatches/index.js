@@ -40,6 +40,7 @@ class TeamMatches extends Component {
     const matchList = data.recent_matches
     console.log(matchList)
     const updatedList = matchList.map(each => ({
+      id: each.id,
       competingTeam: each.competing_team,
       competingTeamLogo: each.competing_team_logo,
       result: each.result,
@@ -64,7 +65,7 @@ class TeamMatches extends Component {
         </div>
         <ul className="types">
           {list.map(each => (
-            <MatchCard item={each} />
+            <MatchCard item={each} key={each.id} />
           ))}
         </ul>
       </div>
