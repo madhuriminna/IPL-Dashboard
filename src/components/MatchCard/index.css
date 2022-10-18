@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.lists {
+  background-color: black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  width: 200px;
+  height: 500px;
+  margin: 10px;
+}
+.class1 {
+  width: 100px;
+  height: 100px;
+}
+.active {
+  color: green;
+  font-size: 20px;
+}
+.inactive {
+  color: red;
+  font-size: 20px;
+}

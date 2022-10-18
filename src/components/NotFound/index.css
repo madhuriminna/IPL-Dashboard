@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.container4 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  min-height: 100vh;
+  min-width: 90vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  color: white;
+  font-size: 30px;
+  align-items: center;
+}

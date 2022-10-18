@@ -1,0 +1,9 @@
+.imgmiddle {
+  width: 100px;
+  height: 100px;
+  margin-top: 70px;
+}
+.div0 {
+  display: flex;
+  flex-direction: column;
+}
